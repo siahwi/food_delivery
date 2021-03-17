@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="resources/js/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
+</head>
+<body>    
+    <header>
+        <nav >
+            <div class="row">
+                <img src="resources/css/img/logo.png" alt="Norwegianfood" class="logo">                
+                <ul class="main-nav">
+                    <li><a href="#features">Food delivery</a></li>
+                    <li><a href="#works">How it works</a></li>                                        
+                </ul>
+            </div>
+        </nav>
+        <div class="hero-text-box"> 
+        <h1> Try Norwegian food...</h1>
+        <a class="btn btn-full js--scroll-to-works" href="#">I'm hungry</a>
+        <a class="btn btn-2 js--scroll-to-start" href="#">More</a>
+        </div>
+    </header>
+
+    <section class="section-features js--section-features" id="features">
+        <div class="row">                        
+            <h2>Get food fast</h2>
+                <p class="my-copy">
+                    No time for cooking. So let us take care of that.
+                </p>            
+        </div>
+        <div class="row js--wp-1">            
+                        
+            <div class="col span-1-of-3 box">
+                <ion-icon name="alarm-outline" class="icon-big"></ion-icon>
+                <h3>Ready in 30 minutes</h3>
+                <p>
+                    You are only 30 minutes away from your meals delivered to your home.
+                </p>
+            </div>
+
+            
+            <div class="col span-1-of-3 box">
+                <ion-icon name="nutrition-outline"  class="icon-big"></ion-icon>
+                <h3>100% Organic</h3>
+                <p>
+                    Vegetables are fresh and organic. Animals are raised without antibotics. And it is good for health.
+                </p>
+            </div>
+            
+            
+            <div class="col span-1-of-3 box">
+                <ion-icon name="call-outline"  class="icon-big"></ion-icon>
+                <h3>Order anything</h3>
+                <p>
+                    You can order whatever you like.
+                </p>
+            </div>
+
+        </div>
+    </section>
+    <section class="section-meals ">
+        <ul class="meals-show clearfix">
+            <li>
+                <figure class="meal-photo">
+                    <img src="resources/img/1.jpg" alt="1">
+                </figure>
+            </li>        
+            <li>
+                <figure class="meal-photo">
+                    <img src="resources/img/2.jpg" alt="2">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="resources/img/3.jpg" alt="3">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="resources/img/4.jpg" alt="4">
+                </figure>
+            </li>
+        </ul>
+    </section>
+
+    <section class="section-steps js--section-plans" id="works">
+        <div class="row">
+            <h2>How it works - Simple as 1, 2 </h2>
+        </div>    
+        <div class="row">
+            <div class="col span-1-of-2 steps-box clearfix">
+                <img src="resources/img/call.png" alt="call" class="app-screen js--wp-2">
+            </div>
+
+            <div class="col span-1-of-2 steps-box clearfix">                
+                <div class="works-steps">
+                    <div>1</div>
+                    <p>
+                        Order your meal using mobile app or website
+                    </p>
+                </div>            
+                <div class="works-steps">
+                    <div>2</div>
+                    <p>
+                        Enjoy your meal less than 30 minutes
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+
+</body>
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+</html>
