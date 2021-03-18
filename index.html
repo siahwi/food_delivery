@@ -10,24 +10,28 @@
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">    
+    <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
 </head>
 <body>    
     <header>
         <nav >
-            <div class="row">
-                <img src="resources/css/img/logo.png" alt="Norwegianfood" class="logo">                
-                <ul class="main-nav">
+            <div class="row nav__row">
+                <img src="resources/css/img/logo.png" alt="Norwegianfood" class="logo"> 
+
+                <div class="main-nav">
                     <li><a href="#features">Food delivery</a></li>
-                    <li><a href="#works">How it works</a></li>                                        
-                </ul>
+                    <li><a href="#works">How it works</a></li>  
+                </div>
             </div>
         </nav>
         <div class="hero-text-box"> 
         <h1> Try Norwegian food...</h1>
-        <a class="btn btn-full js--scroll-to-works" href="#">I'm hungry</a>
-        <a class="btn btn-2 js--scroll-to-start" href="#">More</a>
+            <div class="textbox__detail">
+                <a class="btn btn-full js--scroll-to-works" href="#">I'm hungry</a>
+                <a class="btn btn-2 js--scroll-to-start" href="#">More</a>
+            </div>
         </div>
     </header>
 
@@ -93,23 +97,24 @@
         </ul>
     </section>
 
-    <section class="section-steps js--section-plans" id="works">
+    <section class="section-steps js--section-steps" id="works">
         <div class="row">
             <h2>How it works - Simple as 1, 2 </h2>
-        </div>    
+        </div>
+
         <div class="row">
-            <div class="col span-1-of-2 steps-box clearfix">
+            <div class="col span-1-of-2 steps-box ">
                 <img src="resources/img/call.png" alt="call" class="app-screen js--wp-2">
             </div>
 
-            <div class="col span-1-of-2 steps-box clearfix">                
-                <div class="works-steps">
+            <div class="col span-1-of-2 steps-box ">                
+                <div class="works-steps clearfix">
                     <div>1</div>
                     <p>
                         Order your meal using mobile app or website
                     </p>
                 </div>            
-                <div class="works-steps">
+                <div class="works-steps clearfix">
                     <div>2</div>
                     <p>
                         Enjoy your meal less than 30 minutes

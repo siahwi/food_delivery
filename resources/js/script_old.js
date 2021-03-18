@@ -12,7 +12,7 @@ $(document).ready(function() {
     });
     
     $('.js--scroll-to-works').click(function () {
-        $('html, body').animate({scrollTop: $('.js--section-steps').offset().top}, 1000); 
+        $('html, body').animate({scrollTop: $('.js--section-plans').offset().top}, 1000); 
      });
      
      $('.js--scroll-to-start').click(function () {
